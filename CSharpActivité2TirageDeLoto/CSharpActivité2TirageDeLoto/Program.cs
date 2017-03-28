@@ -10,6 +10,7 @@ namespace CSharpActivité2TirageDeLoto
     {
         static void Main(string[] args)
         {
+
         }
     }
 }
