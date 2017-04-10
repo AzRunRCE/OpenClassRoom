@@ -7,8 +7,8 @@
     <ProjectGuid>{7FFC0A7D-E7D9-4A1A-9120-33894BBF0541}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>CSharpActivité2TirageDeLoto</RootNamespace>
-    <AssemblyName>CSharpActivité2TirageDeLoto</AssemblyName>
+    <RootNamespace>activite_1</RootNamespace>
+    <AssemblyName>activite_1</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
