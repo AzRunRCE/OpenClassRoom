@@ -1,4 +1,4 @@
-e vais vous demander d'expliquer le concept de pointeurs. Imaginez que vous parlez à un ami qui connaît les bases du C (les variables notamment) mais qui ne connaît rien aux pointeurs. Comment lui présenteriez-vous le fonctionnement des pointeurs ?
+Je vais vous demander d'expliquer le concept de pointeurs. Imaginez que vous parlez à un ami qui connaît les bases du C (les variables notamment) mais qui ne connaît rien aux pointeurs. Comment lui présenteriez-vous le fonctionnement des pointeurs ?
 
 Plus votre explication est simple, juste et claire, mieux c'est !
 
