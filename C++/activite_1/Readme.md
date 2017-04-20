@@ -1,5 +1,4 @@
-Votre mission
-Je vous avais suggéré plusieurs pistes d'amélioration à la fin du TP. Il y en a 3 que je vais vous demander d'effectuer ici :
+Il y a 3 améliorations que je vais vous demander d'effectuer ici :
 
 Proposez au joueur de faire une nouvelle partie. 
 Actuellement, une fois le mot trouvé, le programme s'arrête. Et si vous demandiez « Voulez-vous faire une autre partie ? (o/N) ». En fonction de la réponse saisie, vous reprenez au début du programme. Pour ce faire, il faudra créer une grosse boucle do… while qui englobe les 3 étapes du programme.
