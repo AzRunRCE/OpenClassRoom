@@ -2,11 +2,11 @@
 <!DOCTYPE html>
 <html lang="fr">
     <meta charset="utf-8">
+     <h1>Instructions</h1>
   <body>
 
 
     	
-    <h1>Instructions</h1>
  
 <p>Pour commencer, <a href="https://static.oc-static.com/prod/courses/files/creez-des-pages-web-interactives-avec-javascript/activite_1.zip">r&eacute;cup&eacute;rez puis d&eacute;compressez l&rsquo;archive zip fournie</a>. Elle contient un r&eacute;pertoire <strong>activite_1</strong> qui poss&egrave;de la structure suivante.</p>
 <p><img src="https://static.oc-static.com/prod/courses/files/creez-des-pages-web-interactives-avec-javascript/activite1_1.png" alt="" width="179" height="143" /></p>
