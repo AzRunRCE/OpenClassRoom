@@ -1,55 +1,15 @@
 
 <!DOCTYPE html>
 <html lang="fr">
-  <head>
-    <meta charset="utf-8">
-    <title>Exercices</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 
-    <link rel="stylesheet" href="/bundles/tester/css/bootstrap.min.css" type="text/css" />
-    <link rel="stylesheet" href="/bundles/tester/css/bootstrap-responsive.min.css" type="text/css" />
-    <link rel="stylesheet" href="/bundles/tester/css/styles.css" type="text/css" />
-
-    <script src="/bundles/tester/js/ace/ace.js" type="text/javascript" charset="utf-8"></script>
-
-        
-
-    <!--[if lt IE 9]>
-      <script src="/bundles/tester/js/html5shiv.js"></script>
-    <![endif]-->
-
-    <script type="text/javascript">
-      !function(){var analytics=window.analytics=window.analytics||[];if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","group","track","ready","alias","page","once","off","on"];analytics.factory=function(t){return function(){var e=Array.prototype.slice.call(arguments);e.unshift(t);analytics.push(e);return analytics}};for(var t=0;t<analytics.methods.length;t++){var e=analytics.methods[t];analytics[e]=analytics.factory(e)}analytics.load=function(t){var e=document.createElement("script");e.type="text/javascript";e.async=!0;e.src=("https:"===document.location.protocol?"https://":"http://")+"cdn.segment.com/analytics.js/v1/"+t+"/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(e,n)};analytics.SNIPPET_VERSION="3.0.0";
-          analytics.load("mou95e6tdn");
-          analytics.page()
-      }}();
-    </script>
-
-  </head>
 
   <body>
 
-    <div class="navbar navbar-inverse navbar-fixed-top">
-      <div class="navbar-inner">
-        <div class="container">
-          <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="brand" href="#">Exercices</a>
-                            <ul class="nav nav-pills pull-right">
-        <li><a href="https://vimeo.com/album/2826327/video/91864076" target="_blank"><i class="icon-white icon-question-sign"></i> Comment ça marche ?</a></li>
-    </ul>
-                  </div>
-      </div>
-    </div>
+   
+    	    <h1>ActivitÃ© 2 - GÃ©rez lâ€™ajout de nouveaux liens</h1>
 
-    <div class="container">
-    	    <h1>Activité 2 - Gérez l’ajout de nouveaux liens</h1>
-
-    <p><small>Temps d&#039;attente moyen pour être corrigé sur cet exercice : 1 jour</small></p>
+    <p><small>Temps d&#039;attente moyen pour Ãªtre corrigÃ© sur cet exercice : 1 jour</small></p>
 
     <p><a href="https://openclassrooms.com/courses/creez-des-pages-web-interactives-avec-javascript" class="btn btn-mini btn-inverse"><i class="icon-white icon-arrow-left"></i> Retour au cours</a></p>
 
@@ -71,56 +31,8 @@
 <p>&nbsp;</p>
 <p>Envoyez l&rsquo;activit&eacute; sous la forme d&rsquo;une archive zip contenant votre r&eacute;pertoire <strong>activite_2</strong>&nbsp;et tout son contenu.</p>
 <p>Bon courage !</p>
-    </div>
+ 
 
-    <form action="/assessment/534?login=7866031&amp;tk=dcb45db5a1ec86b7c634413886b8a038&amp;sbd=2016-02-01&amp;sbdtk=2466d6bae51e373d89ac8e3f74213199" method="post" enctype="multipart/form-data">
-        <fieldset>
-            <legend>Sélection du travail</legend>
-            <label>
-                Votre travail (format <strong>.zip</strong>, 70 Mo max)<br />
-                <input type="file" name="assessment" required />
-                <span class="help-block">Comment créer un fichier ZIP sous <a href="https://vimeo.com/album/2826327/video/91856555" target="_blank">Windows</a> ? Sous <a href="https://vimeo.com/album/2826327/video/91856554" target="_blank">Mac OS X</a> ?</span>
-            </label>
-            <label>
-                Vous pouvez laisser un mot à l&#039;attention de vos correcteurs si vous le souhaitez :<br />
-                <textarea name="comment" placeholder="(facultatif)" rows="6" class="input-xlarge"></textarea>
-            </label>
-        </fieldset>
-
-
-        <fieldset>
-            <legend>Validation</legend>
-            <p><span class="label label-warning">Attention</span> Relisez-vous bien ! Après soumission de votre travail, vous ne pourrez plus le modifier ni en renvoyer un nouveau !</p>
-            <p class="text-center"><input type="submit" class="btn btn-primary" /></p>
-        </fieldset>
-    </form>
-    </div>
-
-
-
-    <script type="text/javascript" src="/bundles/tester/js/jquery.min.js"></script>
-    <script type="text/javascript" src="/bundles/tester/js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
-
-
-
-        <script>
-        $('form').submit(function(event) {
-            if (!confirm('Etes\x2Dvous\x20s\u00FBr\x20de\x20vouloir\x20valider\x20votre\x20travail\x20\x3F\x20L\x27enregistrement\x20est\x20d\u00E9finitif\x20et\x20vous\x20ne\x20pourrez\x20pas\x20renvoyer\x20votre\x20travail\x20\x21')) {
-                event.preventDefault();
-            }
-        });
-    </script>
-
-            <script>
-            analytics.identify('7866031', {}, {
-                integrations: {
-                    Intercom : {
-                        user_hash : '687fdedd7974e2cc232d8be2f43ee978c8106097119502244b279134591432e9',
-                    }
-                }
-            });
-        </script>
     
   </body>
 </html>
