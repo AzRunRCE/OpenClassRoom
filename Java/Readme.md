@@ -1,13 +1,7 @@
 
 <!DOCTYPE html>
 <html lang="fr">
-    
-    <div class="container">
-    	
     <h1>Instructions</h1>
-
-    <p><a href="#" onclick="javascript:history.go(-1)" class="btn btn-mini btn-inverse"><i class="icon-white icon-arrow-left"></i> Retour</a></p>
-
     <div>
         <p>Bienvenue dans&nbsp;cette activit&eacute; de correction par les pairs.</p>
 <p>Vous allez mettre en pratique une bonne partie de ce que vous avez appris dans la partie 1 et 2 de ce cours Java :</p>
@@ -80,7 +74,6 @@
 <p>&nbsp;</p>
 <p>C'est &agrave; vous !</p>
 <p>&nbsp;</p>
-    </div>
     </div>
 
 
