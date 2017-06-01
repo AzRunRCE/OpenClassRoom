@@ -7,8 +7,6 @@
 
     	
     <h1>Instructions</h1>
-
-    <div>
         <p>Bienvenue dans cette activit&eacute; ! Je vous propose de mobiliser vos nouvelles connaissances pour &eacute;crire une page web affichant une liste de liens, un peu &agrave; la mani&egrave;re de sites comme <strong>reddit</strong> ou <strong>Hacker News</strong>.</p>
 <p>Pour commencer, <a href="https://static.oc-static.com/prod/courses/files/creez-des-pages-web-interactives-avec-javascript/activite_1.zip">r&eacute;cup&eacute;rez puis d&eacute;compressez l&rsquo;archive zip fournie</a>. Elle contient un r&eacute;pertoire <strong>activite_1</strong> qui poss&egrave;de la structure suivante.</p>
 <p><img src="https://static.oc-static.com/prod/courses/files/creez-des-pages-web-interactives-avec-javascript/activite1_1.png" alt="" width="179" height="143" /></p>
@@ -24,7 +22,7 @@
 </ul>
 <p>Envoyez l&rsquo;activit&eacute; sous la forme d&rsquo;une archive zip contenant votre r&eacute;pertoire <strong>activite_1</strong>&nbsp;et tout son contenu.</p>
 <p><br />Bon courage !</p>
-    </div>
+
 
 
 
