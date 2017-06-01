@@ -9,7 +9,6 @@
    
     	    <h1>Activité 2 - Gérez l’ajout de nouveaux liens</h1>
 
-    <div>
         <p>Cette deuxi&egrave;me activit&eacute; sera l&rsquo;occasion d&rsquo;enrichir l&rsquo;application de liens web cr&eacute;&eacute;e pr&eacute;c&eacute;demment.</p>
 <p>Pour commencer, reprenez le code issu de votre activit&eacute; 1 ou de la correction-type que vous aviez t&eacute;l&eacute;charg&eacute;e pr&eacute;c&eacute;demment. La structure de l&rsquo;application reste la m&ecirc;me. Renommez uniquement le r&eacute;pertoire <strong>activite_1</strong> sous le nom <strong>activite_2</strong>. Vous devez obtenir l&rsquo;arborescence suivante.</p>
 <p><img src="https://static.oc-static.com/prod/courses/files/creez-des-pages-web-interactives-avec-javascript/activite2_1.png" alt="" width="180" height="148" /></p>
