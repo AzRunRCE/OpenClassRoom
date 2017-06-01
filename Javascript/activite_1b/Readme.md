@@ -9,10 +9,6 @@
    
     	    <h1>Activité 2 - Gérez l’ajout de nouveaux liens</h1>
 
-    <p><small>Temps d&#039;attente moyen pour être corrigé sur cet exercice : 1 jour</small></p>
-
-    <p><a href="https://openclassrooms.com/courses/creez-des-pages-web-interactives-avec-javascript" class="btn btn-mini btn-inverse"><i class="icon-white icon-arrow-left"></i> Retour au cours</a></p>
-
     <div>
         <p>Cette deuxi&egrave;me activit&eacute; sera l&rsquo;occasion d&rsquo;enrichir l&rsquo;application de liens web cr&eacute;&eacute;e pr&eacute;c&eacute;demment.</p>
 <p>Pour commencer, reprenez le code issu de votre activit&eacute; 1 ou de la correction-type que vous aviez t&eacute;l&eacute;charg&eacute;e pr&eacute;c&eacute;demment. La structure de l&rsquo;application reste la m&ecirc;me. Renommez uniquement le r&eacute;pertoire <strong>activite_1</strong> sous le nom <strong>activite_2</strong>. Vous devez obtenir l&rsquo;arborescence suivante.</p>
