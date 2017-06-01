@@ -1,27 +1,37 @@
 
 <!DOCTYPE html>
 <html lang="fr">
- <h1>Activité 2 - Gérez l’ajout de nouveaux liens</h1>
-
-
+    <meta charset="utf-8">
   <body>
-<p><img src="https://static.oc-static.com/prod/courses/files/creez-des-pages-web-interactives-avec-javascript/activite2_1.png" alt="" width="180" height="148" /></p>
-<p>Votre travail consiste &agrave; int&eacute;grer &agrave; l&rsquo;application un formulaire permettant d&rsquo;ajouter un nouveau lien en saisissant ses informations (titre, URL et auteur).</p>
-<p><img src="https://static.oc-static.com/prod/courses/files/creez-des-pages-web-interactives-avec-javascript/activite_2_demo.gif" alt="" width="600" height="348" /></p>
+
+
+    	
+    <h1>Instructions</h1>
+
+    <div>
+        <p>Bienvenue dans cette activit&eacute; ! Je vous propose de mobiliser vos nouvelles connaissances pour &eacute;crire une page web affichant une liste de liens, un peu &agrave; la mani&egrave;re de sites comme <strong>reddit</strong> ou <strong>Hacker News</strong>.</p>
+<p>Pour commencer, <a href="https://static.oc-static.com/prod/courses/files/creez-des-pages-web-interactives-avec-javascript/activite_1.zip">r&eacute;cup&eacute;rez puis d&eacute;compressez l&rsquo;archive zip fournie</a>. Elle contient un r&eacute;pertoire <strong>activite_1</strong> qui poss&egrave;de la structure suivante.</p>
+<p><img src="https://static.oc-static.com/prod/courses/files/creez-des-pages-web-interactives-avec-javascript/activite1_1.png" alt="" width="179" height="143" /></p>
+<p>Le fichier <strong>liensweb.js</strong> initial contient une liste de liens fournie sous la forme d&rsquo;un tableau d&rsquo;objet JavaScript. Votre travail consiste &agrave; enrichir ce fichier afin que l&rsquo;affichage de la page <strong>liensweb.html</strong> produise un r&eacute;sultat similaire &agrave; l&rsquo;image ci-dessous.</p>
+<p><a href="https://static.oc-static.com/prod/courses/files/creez-des-pages-web-interactives-avec-javascript/activite1_2.png" target="_blank"><img src="https://static.oc-static.com/prod/courses/files/creez-des-pages-web-interactives-avec-javascript/activite1_2.png" alt="" width="500" height="325" /></a></p>
 <p>Voici quelques consignes suppl&eacute;mentaires :</p>
 <ul>
-<li>Le formulaire appara&icirc;t lors du clic sur le bouton &ldquo;Ajouter un lien&rdquo;.</li>
-<li>La saisie des champs Titre, URL et Auteur du lien est obligatoire.</li>
-<li>Si l&rsquo;URL saisie ne commence ni par &ldquo;http://&rdquo; ni par &ldquo;https://&rdquo;, on lui ajoute &ldquo;http://&rdquo; au d&eacute;but.</li>
-<li>Lorsque l&rsquo;utilisateur valide le nouveau lien, celui-ci est ajout&eacute; en haut de la page, le formulaire d&rsquo;ajout dispara&icirc;t et un message d&rsquo;information s&rsquo;affiche pendant 2 secondes.</li>
+<li>Le titre de chaque lien est cliquable et envoie vers son URL.</li>
+<li>La couleur &agrave; donner au titre d&rsquo;un lien est &ldquo;#428bca&rdquo;.</li>
+<li>Les fichiers <strong>liensweb.css</strong> et <strong>liensweb.html</strong> ne doivent pas &ecirc;tre modifi&eacute;s.</li>
+<li>Conform&eacute;ment aux bonnes pratiques vues dans le cours, les nouveaux &eacute;l&eacute;ments du DOM doivent &ecirc;tre cr&eacute;&eacute;s et modifi&eacute;s avant d&rsquo;&ecirc;tre ajout&eacute;s &agrave; la page.</li>
 <li>Les variables JavaScript doivent respecter la norme camelCase et le fichier <strong>liensweb.js</strong> doit &ecirc;tre correctement indent&eacute;.</li>
 </ul>
-<p>Remarque : les liens n&rsquo;&eacute;tant pas sauvegard&eacute;s de mani&egrave;re persistante, le rechargement de la page web affiche uniquement les liens initiaux.</p>
-<p>&nbsp;</p>
-<p>Envoyez l&rsquo;activit&eacute; sous la forme d&rsquo;une archive zip contenant votre r&eacute;pertoire <strong>activite_2</strong>&nbsp;et tout son contenu.</p>
-<p>Bon courage !</p>
+<p>Envoyez l&rsquo;activit&eacute; sous la forme d&rsquo;une archive zip contenant votre r&eacute;pertoire <strong>activite_1</strong>&nbsp;et tout son contenu.</p>
+<p><br />Bon courage !</p>
+    </div>
+
+
+
+
  
 
+        
     
   </body>
 </html>
