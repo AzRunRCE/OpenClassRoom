@@ -1,13 +1,10 @@
 
 <!DOCTYPE html>
 <html lang="fr">
-
+ <h1>Activité 2 - Gérez l’ajout de nouveaux liens</h1>
 
 
   <body>
-
-   
-    	   <h1>Activité 2 - Gérez l’ajout de nouveaux liens</h1>
 <p><img src="https://static.oc-static.com/prod/courses/files/creez-des-pages-web-interactives-avec-javascript/activite2_1.png" alt="" width="180" height="148" /></p>
 <p>Votre travail consiste &agrave; int&eacute;grer &agrave; l&rsquo;application un formulaire permettant d&rsquo;ajouter un nouveau lien en saisissant ses informations (titre, URL et auteur).</p>
 <p><img src="https://static.oc-static.com/prod/courses/files/creez-des-pages-web-interactives-avec-javascript/activite_2_demo.gif" alt="" width="600" height="348" /></p>
