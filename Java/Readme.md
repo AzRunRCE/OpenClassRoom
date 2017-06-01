@@ -1,32 +1,7 @@
 
 <!DOCTYPE html>
 <html lang="fr">
-  <head>
-    <meta charset="utf-8">
-    <title>Exercices</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-
-    <link rel="stylesheet" href="/bundles/tester/css/bootstrap.min.css" type="text/css" />
-    <link rel="stylesheet" href="/bundles/tester/css/bootstrap-responsive.min.css" type="text/css" />
-    <link rel="stylesheet" href="/bundles/tester/css/styles.css" type="text/css" />
-
-    <script src="/bundles/tester/js/ace/ace.js" type="text/javascript" charset="utf-8"></script>
-
-        
-
-    <!--[if lt IE 9]>
-      <script src="/bundles/tester/js/html5shiv.js"></script>
-    <![endif]-->
-
     
-
-  </head>
-
-  <body>
-
-   
-
     <div class="container">
     	
     <h1>Instructions</h1>
@@ -110,13 +85,6 @@
 
 
 
-    <script type="text/javascript" src="/bundles/tester/js/jquery.min.js"></script>
-    <script type="text/javascript" src="/bundles/tester/js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
-
-
-
-        
     
   </body>
 </html>
