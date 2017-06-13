@@ -13,7 +13,7 @@
 
         <p>Dans cette activité finale, vous allez utiliser un serveur web externe pour rendre votre application de liens web véritablement opérationnelle.</p>
 <p>Pour commencer, reprenez le code issu de votre activité 2 ou de la correction-type que vous aviez téléchargée précédemment. La structure de l’application reste la même. Renommez uniquement le répertoire <strong>activite_2</strong> sous le nom <strong>activite_3</strong>. Vous devez obtenir l’arborescence suivante.</p>
-<p><img src="./Exercices_files/activite3_1.png" alt="" width="181" height="147"></p>
+<p><img src="https://static.oc-static.com/prod/courses/files/creez-des-pages-web-interactives-avec-javascript/activite3_1.png" alt="" width="181" height="147"></p>
 <p>Votre travail consiste à connecter l’application au serveur <a href="https://oc-jswebsrv.herokuapp.com/">https://oc-jswebsrv.herokuapp.com</a> pour récupérer les derniers liens publiés et ajouter un nouveau lien.</p>
 <p>L’API de récupération des liens est <a href="https://oc-jswebsrv.herokuapp.com/api/liens">https://oc-jswebsrv.herokuapp.com/api/liens</a>. Elle renvoie les derniers liens ajoutés sous forme de tableau JSON.</p>
 <p>L’API d’ajout d’un lien est <a href="https://oc-jswebsrv.herokuapp.com/api/lien">https://oc-jswebsrv.herokuapp.com/api/lien</a>. Elle attend un objet JSON représentant un lien.</p>
@@ -26,7 +26,7 @@
   “url”: “URL du lien”,<br>
   “auteur”: “auteur du lien”<br>
 }</pre>
-<p><img src="./Exercices_files/activite_3_demo.gif" alt="" width="600" height="348"></p>
+<p><img src="https://static.oc-static.com/prod/courses/files/creez-des-pages-web-interactives-avec-javascript/activite_3_demo.gif" alt="" width="600" height="348"></p>
 <p>Voici quelques consignes supplémentaires :</p>
 <ul>
 <li>Les liens affichés sont récupérés depuis le serveur.</li>
