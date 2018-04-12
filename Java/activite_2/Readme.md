@@ -9,3 +9,12 @@
 * Soigner la gestion des exceptions pour avertir au mieux les utilisateurs lorsqu’un problème survient.
 
 # Production
+## Accueil
+![alt text](https://github.com/AzzRun/OpenClassRoom/blob/master/Java/activite_2/screenshots/main.PNG?raw=true)
+
+## Ajout d'un vehicule
+![alt text](https://github.com/AzzRun/OpenClassRoom/blob/master/Java/activite_2/screenshots/add.PNG?raw=true)
+
+## Détails d'un vehicule
+![alt text](https://github.com/AzzRun/OpenClassRoom/blob/master/Java/activite_2/screenshots/detail.PNG?raw=true)
+
