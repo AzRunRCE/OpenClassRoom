@@ -15,6 +15,6 @@
 ## Ajout d'un vehicule
 ![alt text](https://github.com/AzzRun/OpenClassRoom/blob/master/Java/activite_2/screenshots/add.PNG?raw=true)
 
-## Détails d'un vehicule
+## Détail d'un vehicule
 ![alt text](https://github.com/AzzRun/OpenClassRoom/blob/master/Java/activite_2/screenshots/detail.PNG?raw=true)
 
