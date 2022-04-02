@@ -34,13 +34,11 @@ app.use(function(req, res, next){
 })
 
 /* On affiche la todolist et le formulaire */
-app.get('/todo', function(req, res) { 
-    res.render('todo.ejs');
+app.get('/', function(req, res) { 
+    app.render('todo.ejs',  { teamData : "test" }, function (err, html) {
+		console.warn(html);
+	})
 })
 
-/* On redirige vers la todolist si la page demandée n'est pas trouvée */
-app.use(function(req, res, next){
-    res.redirect('/todo');
-})
 
 server.listen(8080);   
