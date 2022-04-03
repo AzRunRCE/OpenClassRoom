@@ -1,27 +1,10 @@
-# OpenClassRoom
-Exercices effectués dans le cadre des certifications OpenClassRoom
-
-## C#
-  * Application en WPF (responsive) en respectant le pattern MVVM [Voir](https://github.com/AzzRun/OpenClassRoom/tree/master/C%23/WPF)
-  * Application console simple (Tirage de loto)  [Voir](https://github.com/AzzRun/OpenClassRoom/blob/master/C%23/activite_1)
-  * Service WCF (Proof of Concept) [Voir](https://github.com/AzzRun/OpenClassRoom/tree/master/C%23/activite_1_wcf)
-
-## Java
-  * Application console (Connection et lecture en base de donnée jdbc) [Voir](https://github.com/AzzRun/OpenClassRoom/tree/master/Java/src/com/azrunsoft/garage)
-  * Application graphique avec Swing (Gestion d'un garage) en respectant le pattern DAO et Factory [Voir](https://github.com/AzzRun/OpenClassRoom/tree/master/Java/activite_2/projet/Java_ActivitePartie4-Vehicule-JDBC/src)
-
-## C++
-  * Application Console (Jeu du pendu) [Voir](https://github.com/AzzRun/OpenClassRoom/tree/master/C%2B%2B/activite_1)
-
-## C
-  * Application Console (Jeu du plus ou Moins) [Voir](https://github.com/AzzRun/OpenClassRoom/blob/master/C/activite_1)
-  * Rédaction concernant concept et l'explication des pointeurs en C  [Voir](https://github.com/AzzRun/OpenClassRoom/blob/master/C/activite_2)
- 
-## Node.Js
-  * Application Web (HTML & CSS) avec socket.io (TODOO List en temps réel) Partie 1: [Voir](https://github.com/AzzRun/OpenClassRoom/tree/master/Node.js/realtime_todolist)
-  
-## Javascript
-  * Application Web (TODOO List) Partie 1: [Voir](https://github.com/AzzRun/OpenClassRoom/tree/master/Javascript/activite_1b) Partie 2: [Voir](https://github.com/AzzRun/OpenClassRoom/tree/master/Javascript/activite_2b)
-  * Application Web (TODOO List) avec Heroku [Voir](https://github.com/AzzRun/OpenClassRoom/tree/master/Javascript/activite_3)
- * Application Web (Console) simple (Instanciation d'objet) [Voir](https://github.com/AzzRun/OpenClassRoom/tree/master/Javascript/activite_2)
-  
+<strong>Todolist partagée en temps réel !</strong>
+<h2>Votre mission</h2>
+<p>Vous allez reprendre le <a href="http://fr.openclassrooms.com/informatique/cours/des-applications-ultra-rapides-avec-node-js/tp-la-todo-list" target="_blank">projet de Todolist</a>&nbsp;que nous avions créée, et vous allez l'améliorer pour faire en sorte qu'elle puisse être utilisée par plusieurs personnes en même temps à l'aide de <strong>socket.io</strong>. Voici les fonctionnalités attendues :</p>
+<ul>
+<li>Quand un client se connecte, il récupère la dernière Todolist connue du serveur</li>
+<li>Quand un client ajoute une tâche, celle-ci est immédiatement répercutée chez&nbsp;les autres clients</li>
+<li>Quand un client supprime une tâche, celle-ci est immédiatement supprimée chez les autres clients</li>
+</ul>
+<p>Le serveur pourra retenir la Todolist sous le forme d'un simple array qu'il gardera en mémoire. La persistence n'est pas demandée (inutile d'utiliser MySQL ou Mongodb ;o).</p>
+<p>L'utilisation d'Express.js est recommandée mais n'est pas obligatoire.</p>

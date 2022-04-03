@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,700&display=swap" rel="stylesheet">
+<html>
+    <head>
+        <title>Ma todolist</title>
+        <style>
+           
+			.myButton {
+				box-shadow:inset 0px 1px 0px 0px #f29c93;
+				background:linear-gradient(to bottom, #fe1a00 5%, #ce0100 100%);
+				background-color:#fe1a00;
+				border-radius:42px;
+				border:4px solid #d83526;
+				display:inline-block;
+				cursor:pointer;
+				color:#ffffff;
+				font-family:Arial;
+				font-size:32px;
+				font-weight:bold;
+				padding:24px 28px;
+				text-decoration:none;
+				text-shadow:0px 1px 0px #b23e35;
+
+			}
+			.myButton:hover {
+				background:linear-gradient(to bottom, #ce0100 5%, #fe1a00 100%);
+				background-color:#ce0100;
+			}
+			.myButton:active {
+				position:relative;
+				top:1px;
+			}
+
+			html, body {
+			height: 100%;
+			}
+			body {
+				margin: 0;
+			}
+			.flex-container {
+				height: 100%;
+				padding: 0;
+				margin: 0;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+			}
+			.row {
+				width: auto;
+			}
+			h1 {
+				font-size: 32px;
+				font-family: 'Montserrat', sans-serif;
+				color: white;
+			}
+			
+        </style>
+    </head>
+    <body style="height: 100%;width: 100%; 
+		background-image:  url('photo (<%= photo %>).jpg');
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-size: 100% 100%;">
+	
+		<div class="flex-container">
+			<div class="row"> 
+				<span><h1><%= teamName %></h1></span>
+				<input type="button" class="myButton" value="BUZZ" onclick="play()">
+			</div>
+		</div>
+		<script>
+			function play() {
+			  var audio = document.getElementById("audio");
+			  audio.play();
+			  audio.currentTime = 0;
+			}
+		  </script>
+	   	 <audio id="audio" preload="auto" src="<%= name %>.mp3"></audio>
+	  
+		</body>
+			
+		 <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+        <script src="/socket.io/socket.io.js"></script>
+        <script>
+            var socket = io.connect('http://localhost:8080');
+            
+			// On récupére tous les items de la liste     
+			socket.on('connectionCallback', function(message) {
+				var todolist = JSON.parse(message);
+				console.log(todolist);
+				todolist.forEach(function(item) {
+					addItem(item);
+				})
+            })
+			
+			// Lorsqu'un message de type 'removeElementEvent' est recu on supprime l'item correspondant. 
+			socket.on('removeItemEvent', function(message) {
+				var item = JSON.parse(message);
+				removeItem(item);
+            })
+			
+			// Lorsqu'un message de type 'addItemEvent' est recu on supprime l'item correspondant. 
+			socket.on('addItemEvent', function(message) {
+				var item = JSON.parse(message);
+				addItem(item);
+            })
+			
+			//Après contrôle, requête d'ajout d'item;
+			function addItemRequest(){
+				var Inputnewtodo = document.getElementById('newtodo');
+				if (Inputnewtodo.value==='')
+					return;
+				var newItem = {id: 0, text: Inputnewtodo.value};
+                socket.emit('addItem',JSON.stringify(newItem));
+				Inputnewtodo.value ='';
+			}
+			
+			// Fonction d'ajout a liste des items
+			function addItem(item){
+				var li = document.createElement('li');
+					var a = document.createElement('a');
+					var t = document.createTextNode("" + item.text);		
+					a.text = '✘';
+					a.href = '#';
+					li.appendChild(a);	
+					li.appendChild(t);
+					li.id = 'item_' + item.id;
+					document.getElementById('todolist').appendChild(li);
+					a.addEventListener('click', function() {
+						removeItemRequest(item);
+					}, false);
+					
+			}
+
+			//Suppression d'item;
+			function removeItem(item){
+			  document.getElementById('item_' + item.id).remove();
+			}
+			
+			// Requête de suppression d'item;
+			function removeItemRequest(item){
+                socket.emit('removeItem',JSON.stringify(item));
+			}
+            // Lorsqu'on clique sur le button 'newtodo', on envoie une requête d'ajout au serveur.
+            $('#addItem').click(function () {
+				addItemRequest();
+            })
+			// Lorsqu'on presse {Enter} sur le champs 'newtodo', on envoie une requête d'ajout au serveur.
+			$('#newtodo').on('keydown', function(e) {
+			if (e.which == 13) {
+				addItemRequest();
+			}
+		});
+        </script>
+		</body>
+</html>
+
+
