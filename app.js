@@ -62,9 +62,9 @@ function getAudioFromTeam(name){
 		case "LePlaignant":	
 			return { teamName:"Le Plaignant",name: name, photo: photoIndex }
 		case "Admin":
-			return { teamName:"Admin"}
+			return { teamName:"Admin",name: name, photo: photoIndex }
 		default:
-			return  { teamName:"OSS117",name: name }
+			return  { teamName:"OSS117",name: name,photo: photoIndex }
 	}
 }
 
